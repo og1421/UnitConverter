@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+enum TimeUnit: String {
+    case Hour = "hour", Minute = "minute", Second = "second", Days = "days"
+}
+
 struct ContentView: View {
     var body: some View {
         VStack {
